@@ -1,0 +1,81 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+body,html{
+    width: 100%;
+    height: 100%;
+    background-color: antiquewhite;
+    
+
+}
+
+.FAQ{
+    
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+margin-top: 20vh;
+}
+h1{
+    color: gold;
+}
+article{
+    border: 2px solid green;
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0px;
+    padding: 20px 0px;
+    align-items: center;
+}
+.quation-title{
+    border-bottom: 2px solid lightslategray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: 10px 0px;
+    
+}
+button{
+    background: none;
+    color: white;
+    display: flex;
+    border: none; 
+   
+}
+.quation-btn{
+    display: flex;
+    flex-direction: column;
+}
+i{
+    color: black;
+    border: 2px solid gold;
+    font-size: 20px;
+    width: 100%;
+    margin: 10px 0px;
+    padding: 2px;
+    font-weight:900;
+}
+.quation-text{
+    width: 90%;
+    display: none;
+}
+.show-text .quation-text{
+    display: block;
+}
+
+.minus-icom{
+    display: none;
+}
+
+.show-text .minus-icom{
+    display: inline;
+}
+.show-text .plus-icon{
+    display: none;
+}
